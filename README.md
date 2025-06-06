@@ -12,11 +12,16 @@ Criamos um sistema físico de monitoramento que simula o nível da água utiliza
 
 ## 🔧 Componentes Utilizados
 
-- Arduino Uno
-- Potenciômetro (simulando sensor de nível)
+- Arduino Uno | Microcontrolador principal
+- Potenciômetro | Simulando sensor de nível
 - LEDs: Verde (normal), Amarelo (alerta), Vermelho (crítico)
-- Buzzer (alarme sonoro)
+- Buzzer | Alarme sonoro
 - Resistores
+- RTC DS1307 | Módulo de relógio de tempo real
+- LCD 16x2 I2C | Exibição de dados
+- EEPROM interna | Armazenamento de dados 
+- Resistores diversos | Para botão e sensores
+- Protoboard / Jumpers | Montagem do circuito
 
 ## 🧠 Lógica de Funcionamento
 
@@ -28,8 +33,7 @@ Criamos um sistema físico de monitoramento que simula o nível da água utiliza
 
 ## ▶️ Demonstração em Vídeo
 
-📽️ [Clique aqui para assistir ao vídeo demonstrativo no YouTube](#)  
-*(Insira o link do vídeo após o upload)*
+📽️ [Clique aqui para assistir ao vídeo demonstrativo no YouTube](https://youtu.be/JEAq5olpN-M)  
 
 ## 🖥️ Simulação no Wokwi
 
@@ -61,8 +65,9 @@ Para testar:
 
 Projeto desenvolvido por:
 
-- Breno Golçalves Báo RM:564037
-- Vinicius Cavalcanti dos Reis RM:562063 
+- Projeto desenvolvido por **Hidroguard** para a disciplina Edge Computing - FIAP.
+- Equipe: Breno Gonçalves Báo e Vinicius Cavalcanti dos Reis
+- Professor: Dr. Fábio H. Cabrini
 
 ---
 
